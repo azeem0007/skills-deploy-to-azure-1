@@ -10,7 +10,7 @@ env:
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"East US"'
   ###############################################
-  ### Replace ${{github.actor}} with GitHub username ###
+  ### Replace ${{github.actor}} with GitHub username ###gfgfg
   ###############################################
   AZURE_WEBAPP_NAME: ${{github.actor}}-ttt-app
 
